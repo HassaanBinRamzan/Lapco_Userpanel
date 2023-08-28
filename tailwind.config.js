@@ -1,0 +1,98 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        white: "#fff",
+        goldenrod: {
+          "100": "#ffbf55",
+          "200": "#ffb64d",
+        },
+        sandybrown: "#ffc76d",
+        gainsboro: {
+          "100": "#dee2e6",
+          "200": "#ddd",
+        },
+        slategray: {
+          "100": "#6c757d",
+          "200": "#687188",
+          "300": "rgba(108, 117, 125, 0.78)",
+        },
+        indianred: {
+          "100": "#f35f6d",
+          "200": "#c84d62",
+        },
+        pink: "#ff324d",
+        black: "#000",
+        antiquewhite: "#fde3d2",
+        azure: "#e6fbfe",
+        mistyrose: "#fee6e6",
+        lightpink: "#ffabab",
+        crimson: "#ff374a",
+        lightgray: "#ced4da",
+        lightskyblue: "#53c0e9",
+        whitesmoke: {
+          "100": "#f7f8fb",
+          "200": "#f7f7f7",
+          "300": "#f4f4f4",
+          "400": "#f2f2f2",
+        },
+        gray: {
+          "100": "#292b2c",
+          "200": "rgba(255, 255, 255, 0.2)",
+        },
+        burlywood: "#fdbb99",
+        darkslategray: {
+          "100": "#3e3e3e",
+          "200": "#333",
+        },
+        royalblue: "#4169e1",
+        forestgreen: "#388e3c",
+        mediumseagreen: "#22a96b",
+        orange: "#ff9f00",
+        dimgray: "#5b5a5a",
+        "review-color": "#ffeded",
+        dodgerblue: "#1c6dc9",
+        skyblue: {
+          "100": "#5cadcc",
+          "200": "rgba(132, 202, 228, 0.58)",
+        },
+      },
+      fontFamily: {
+        roboto: "Roboto",
+        "kaushan-script": "'Kaushan Script'",
+        poppins: "Poppins",
+        "roboto-condensed": "'Roboto Condensed'",
+        "roboto-slab": "'Roboto Slab'",
+        "segoe-ui": "'Segoe UI'",
+      },
+      borderRadius: {
+        "21xl": "40px",
+        "11xl": "30px",
+        "8xs": "5px",
+        "231xl": "250px",
+        "91xl": "110px",
+        "base-1": "16.1px",
+        xl: "20px",
+        "101xl": "120px",
+      },
+    },
+    fontSize: {
+      xl: "20px",
+      "17xl": "36px",
+      "5xl": "24px",
+      mini: "15px",
+      "46xl": "65px",
+      "13xl": "32px",
+      sm: "14px",
+      base: "16px",
+      smi: "13px",
+      lg: "18px",
+      inherit: "inherit",
+    },
+  },
+  corePlugins: {
+    preflight: false,
+  },
+};
